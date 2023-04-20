@@ -1,0 +1,19 @@
+div {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+section {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+.crossin {
+    background-image: url(./resources/Cross.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 25px;
+}
