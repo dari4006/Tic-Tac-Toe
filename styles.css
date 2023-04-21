@@ -11,9 +11,17 @@ section {
     margin-left: 40%;
     margin-top: 15%;
 }
-.crossin {
+.cross-in {
     background-image: url(./resources/Cross.png);
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: 25px;
+    animation: animate__zoomIn 5s;
+}
+.o-in {
+    background-image: url(./resources/O.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 25px;
+    animation: animate__zoomIn 5s;
 }
