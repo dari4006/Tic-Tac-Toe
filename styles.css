@@ -9,19 +9,35 @@ section {
     grid-template-columns: repeat(3, 1fr);
     width: 300px;
     margin-left: 40%;
-    margin-top: 15%;
+    margin-top: 20px;
 }
 .cross-in {
     background-image: url(./resources/Cross.png);
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: 25px;
-    animation: animate__zoomIn 5s;
 }
 .o-in {
     background-image: url(./resources/O.png);
     background-repeat: no-repeat;
     background-size: 50px;
     background-position: 25px;
-    animation: animate__zoomIn 5s;
+}
+.win-status {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 25px;
+}
+h1 {
+    justify-content: center!important;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 785px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: large;
 }
