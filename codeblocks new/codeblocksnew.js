@@ -1627,7 +1627,7 @@ section.addEventListener("click", function () {
             console.log("O PLAYER WINS")
             owinStatus = true
             document.querySelector('h1').textContent = "O Player Wins!"
-        }  
+        }
         if (xwinStatus === true || owinStatus === true) {
             if (div1.className === "") {
                 div1.classList.add("win-status")
@@ -1656,15 +1656,9 @@ section.addEventListener("click", function () {
             if (div9.className === "") {
                 div9.classList.add("win-status")
             }
-        } else {
-            document.querySelector('h1').textContent = "DRAW!"
         }
-       // document.querySelector('h1').textContent = "DRAW!"
+        document.querySelector('h1').textContent = "DRAW!"
         console.log("PLAYERS X AND O DRAW")
+        return
     }
-    return
 })
-
-
-
-// box 1,2,3,6,5,9,8,4,7 
